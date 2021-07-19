@@ -1582,10 +1582,12 @@ a:focus {
     top: calc(50% - 50px);
 }
 
+
 .portfolio .portfolio-item figure:hover .link-details {
     opacity: 1;
     top: calc(50% - 50px);
 }
+
 
 .portfolio .portfolio-item figure .portfolio-title {
     position: absolute;
