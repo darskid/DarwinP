@@ -26,6 +26,17 @@
     </head>
 
     <body>
+        
+      
+        <style>
+            /* Make the image fully responsive */
+            .carousel-inner img {
+              width: 100%;
+              height: 100%;
+            }
+            </style>
+
+
         <div class="wrapper">
             <!-- Header Start -->
             <div class="header">
@@ -72,9 +83,37 @@
 
             <!-- Page Header Start -->
             <div class="page-header">
+                <div id="demo" class="carousel slide" data-ride="carousel">
+
+                    <!-- Indicators -->
+                    <ul class="carousel-indicators">
+                      <li data-target="#demo" data-slide-to="0" class="active"></li>
+                      <li data-target="#demo" data-slide-to="1"></li>
+                      <li data-target="#demo" data-slide-to="2"></li>
+                    </ul>
+                    
+                    <!-- The slideshow -->
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                     
+                        <video src="video/4K_5.mp4" width="100%" height="100%"  autoplay loop></video>
+                      </div>
+                      <div class="carousel-item">
+                        
+                        <video src="video/4K_5.mp4" width="100%" height="100%"  autoplay loop></video>
+                      </div>
+                      <div class="carousel-item">
+                        
+                        <video src="video/4K_5.mp4" width="100%" height="100%"  autoplay loop></video>
+                      </div>
+                    </div>
+                    
+                    <!-- Left and right controls -->
+                    
+                  </div>
                 <div class="container">
                     
-                    <div class="row">
+                   <!-- <div class="row">
                         
                         <img src="img/resum.png">
                         <iframe width="560" height="315" src="https://www.youtube.com/embed/d8c2q79ChrM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -83,7 +122,9 @@
                         <a href="https://www.youtube.com/channel/UCmFkXXFTEV9ZJqb5HGhSuQQ"><i class="fab fa-youtube"> youtube</i></a>
                         <a href="https://www.instagram.com/darwin_pancho/"><i class="fab fa-instagram"> instagram</i></a>
                         
-                    </div>
+                    </div>-->
+
+                    
                        
                         
                         </div>
