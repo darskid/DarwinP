@@ -3,7 +3,8 @@
 /*******************************/
 body {
     color: #213546;
-    background: #eeeeee;
+    background-color: transparent;
+    
     font-family: 'Raleway', sans-serif;
 }
 
@@ -31,6 +32,15 @@ a:focus {
     margin: 0 auto;
     background: #ffffff;
 }
+
+.wrapper2 {
+    position: relative;
+    width: 100%;
+    max-width: 1366px;
+    margin: 0 auto;
+    background: #ff0000;
+}
+
 
 .container {
     max-width: 1050px;
@@ -183,7 +193,6 @@ a:focus {
     font-size: 13px;
     font-weight: 500;
     text-transform: uppercase;
-    
     color: #ffffff;
     border: none;
     border-radius: 30px;
@@ -216,7 +225,6 @@ a:focus {
     padding: 30px 0;
     text-align: center;
     background-color: transparent;
-    /* background: linear-gradient(to right, #3d1111, #cf2c3a 70%); */
 }
 
 .page-header h2 {
@@ -1066,8 +1074,7 @@ a:focus {
 .call-to-action {
     position: relative;
     padding: 50px 0;
-    background-color: transparent
-    /*background: linear-gradient(to right, #750e16, #791019 50%);*/
+    background: linear-gradient(to right, #750e16, #791019 50%);
 }
 
 .service-page .call-to-action {
