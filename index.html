@@ -24,77 +24,56 @@
         <!-- Template Stylesheet -->
         <link href="css/style.css" rel="stylesheet">
     </head>
+    <style>
 
-    <body >
-        
-      
-        <style>
-            /* Make the image fully responsive */
-            .carousel-inner img {
-              width: 100%;
-              height: 100%;
-            }
+#myVideo {
+  position:absolute;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+}
+        /* Make the image fully responsive */
+.carousel-inner img 
+{
+width: 100%;
+height: 100%;
+}
+div.sticky {
+position: -webkit-sticky;
+position: sticky;
+top: 0;
+background-color: yellow;
+padding:0;
+height: auto;
+width: auto;
+font-size: 20px;}
 
 
-            .animation_div {
-  width: 100px;
-  height: 200px;
-  background-color: white;
-  position: relative;
-  animation-name: example;
-  animation-duration: 10s;
-  animation-iteration-count: 100;
+.animation_div {
+width: 100px;
+height: 200px;
+background-color: white;
+position: relative;
+animation-name: example;
+animation-duration: 10s;
+animation-iteration-count: 100;
 }
 @keyframes example {
-  0%   {background-color:white; left:0px; top:0px;}
-  70%  {background-color:white; left:1000px; top:0px;}
+0%   {background-color:white; left:0px; top:0px;}
+70%  {background-color:white; left:1000px; top:0px;}
 }
-            </style>
+        </style>
 
-                                
-        <div class="wrapper">
-            <!-- Header Start -->
-            
-            <div class="header">
-                <div class="container-fluid">
-                    <div class="row align-items-center">
-                        <div class="col-lg-2">
-                            <div class="brand">
-                                <a href="https://www.upwork.com/freelancers/~01f4452d7086d24777">
-                                   <!-- <img src="ProfilePic.jpg " alt="Logo">-->
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-lg-10">
-                            <div class="topbar">
-                                <div class="topbar-col">
-                                </div>
-                                <div class="topbar-col">
-                                </div>
-                        
-                            </div>
-                            <div class="navbar navbar-expand-lg bg-light navbar-light">
-                                <a href="#" class="navbar-brand">MENU</a>
-                                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-                                    <span class="navbar-toggler-icon"></span>
-                                </button>
+    <body >
+        <video autoplay muted loop id="myVideo">
+            <source src="video/Network - 12716.mp4" type="video/mp4" height="auto" width="auto">
+          </video>
+      
+       
+      
+  
 
-                                <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
-                                    <div class="navbar-nav ml-auto">
-                                        <a href="index.html" class="nav-item nav-link active">Home</a>
-                                        <a href="DarwinBlog/cvresume.html" class="nav-item nav-link active"><i class=""></i>CV PORTFOLIO</a>
-                                        <a href="https://www.upwork.com/freelancers/~01f4452d7086d24777" class="nav-item nav-link active"><i class=""></i> Up Work</a>
-                                    <!--  <a href="" class="nav-item nav-link active"><i class="fa fa-phone-alt"></i> +63 9156 954 053</a>-->
-                                    <a href="mailto:dharskid003@gmail.com" class="nav-item nav-link active"><i class="fa fa-envelope"></i> dharskid003@gmail.com</a>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            </div>
             <!-- Header End -->
 
 
@@ -147,8 +126,7 @@
                     </div>-->
 
                     
-                       
-                        
+
                         </div>
                     
                     </div>
@@ -157,6 +135,9 @@
             <!-- Page Header End -->
 
                 
+            
+            <div class="call-to-action">
+
                 <div class="container">
                     <h2>We Provide and Support</h2>
                     <p>Services that works for you</p>
@@ -166,6 +147,8 @@
                       <div class=""><img src="img/Service offered digital.jpg"height="333" width="500"></div>
                     </div>
                 </div>
+            </div>
+           
            
             <!-- Portfolio Start -->
             <div class="portfolio">
@@ -347,9 +330,6 @@
 
             <!-- Call to Action Start -->
       
-            <div class="call-to-action">
-              
-                </div>
             <!-- Call to Action End -->
 
 
