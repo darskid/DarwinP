@@ -1524,6 +1524,13 @@ a:focus {
     background: #ffffff;
     color: #213546;
 }
+.portfolio1 #portfolio-flters li:hover,
+.portfolio1 #portfolio-flters li.filter-active
+{
+    position: relative; height: 2170px;
+}
+
+
 
 .portfolio .load-more {
     text-align: center;
