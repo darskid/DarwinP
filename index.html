@@ -39,7 +39,7 @@
 width: 100%;
 height: 100%;
 }
-div.sticky {
+.sticky {
 position: -webkit-sticky;
 position: sticky;
 top: 0;
@@ -63,12 +63,45 @@ animation-iteration-count: 100;
 0%   {background-color:white; left:0px; top:0px;}
 70%  {background-color:white; left:1000px; top:0px;}
 }
+
+
+.new_background {
+    background-color: #ffffff!important;
+
+
+
+}
         </style>
 
     <body >
         <video autoplay muted loop id="myVideo">
-            <source src="video/Network - 12716.mp4" type="video/mp4" height="auto" width="auto">
+            <source src="video/Network - 12716.mp4" type="video/mp4" height="10%" width="auto">
           </video>
+        
+        <div class="wrapper">
+          <nav class="navbar navbar-expand-md new_background navbar-dark">
+            <a class="navbar-brand" href="#"> <img src="img/logokoulet.png" height="50px" width="auto"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="#"><h5 style="color: black;">CV Portfolio</h5></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+                </li>    
+              </ul>
+            </div>  
+          </nav>
+        </div>
+          <br>
+        
       
        
       
@@ -112,35 +145,15 @@ animation-iteration-count: 100;
                     <!-- Left and right controls -->
                     
                   </div>
-                <div class="container">
-                    <img src="img/s1.png">
-                 <div class="row">
-                        
-                    </div>
-
-                    
-
-                        </div>
-                    
-                    </div>
-                </div>
             </div>
             <!-- Page Header End -->
 
                 
-            <div class="call-to-action">
-
-                <div class="container">
-                    <h2>We Provide and Support</h2>
-                   <br>
-                    <div class="row">
-                        
-                      <div class=""><img src="img/Responsive Website.jpg" height="333" width="500" ></div> &nbsp;&nbsp;&nbsp;
-                      <div class=""><img src="img/Service offered digital.jpg"height="333" width="500"></div>
-                    </div>
-                </div>
-            </div>
-           
+            <br>
+            <div id="fb-root"></div>
+            <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v11.0" nonce="zddyAQ3j"></script>
+        
+            <div class="fb-page" data-href="https://www.facebook.com/PlayMining/" data-tabs="timeline" data-width="500" data-height="500" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/PlayMining/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/PlayMining/">PlayMining</a></blockquote></div>
            
             <!-- Portfolio Start -->
             <div class="portfolio">
@@ -148,7 +161,9 @@ animation-iteration-count: 100;
                     <div class="row">
                         <div class="col-12">
                             <ul id="portfolio-flters">
-                                
+
+                           
+                                <a href="https://www.messenger.com/t/100000477140737" class="fb-msg-btn" target="_blank">Message us on Facebook</a>
                                 <li data-filter=".brand" class="filter-active">Categories</li>
                                 <li data-filter=".shirt">T-shirt</li>
                                 <li data-filter=".art">ARTWORK</li>
